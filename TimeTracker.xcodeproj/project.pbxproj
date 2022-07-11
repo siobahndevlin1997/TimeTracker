@@ -14,7 +14,6 @@
 		A0935D88287B9BDE008049BC /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0935D87287B9BDE008049BC /* TimeTrackerTests.swift */; };
 		A0935D92287B9BDE008049BC /* TimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0935D91287B9BDE008049BC /* TimeTrackerUITests.swift */; };
 		A0935D94287B9BDE008049BC /* TimeTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0935D93287B9BDE008049BC /* TimeTrackerUITestsLaunchTests.swift */; };
-		A0935DA1287B9CED008049BC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0935DA0287B9CED008049BC /* ViewModel.swift */; };
 		A0935DA3287B9CFF008049BC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0935DA2287B9CFF008049BC /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		A0935D8D287B9BDE008049BC /* TimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0935D91287B9BDE008049BC /* TimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerUITests.swift; sourceTree = "<group>"; };
 		A0935D93287B9BDE008049BC /* TimeTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A0935DA0287B9CED008049BC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A0935DA2287B9CFF008049BC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +98,6 @@
 			children = (
 				A0935D76287B9BDD008049BC /* TimeTrackerApp.swift */,
 				A0935D78287B9BDD008049BC /* ContentView.swift */,
-				A0935DA0287B9CED008049BC /* ViewModel.swift */,
 				A0935DA2287B9CFF008049BC /* Model.swift */,
 				A0935D7A287B9BDE008049BC /* Assets.xcassets */,
 				A0935D7C287B9BDE008049BC /* Preview Content */,
@@ -264,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0935D79287B9BDD008049BC /* ContentView.swift in Sources */,
-				A0935DA1287B9CED008049BC /* ViewModel.swift in Sources */,
 				A0935D77287B9BDD008049BC /* TimeTrackerApp.swift in Sources */,
 				A0935DA3287B9CFF008049BC /* Model.swift in Sources */,
 			);

@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var text: String = "Testing the text field"
-    @State private var date = Date()
+    let model = ModelClass()
+    @State private var date1: Date = Date.now
+    @State private var date2: Date = Date.now
+    
+    var comparedDates: Bool {
+        model.compareDates(date1: date1, date2: date2)
+    }
     
     var body: some View {
         VStack {
             Text("Please select a date!")
-            DatePicker("Date", selection: $date)
-            Text("Git push test!")
+            DatePicker("Date 1", selection: $date1)
+            DatePicker("Date 2", selection: $date2)
+            Text(String(comparedDates))
         }.padding()
     }
 }
