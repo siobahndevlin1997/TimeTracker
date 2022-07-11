@@ -15,6 +15,7 @@ struct ContentView: View {
         VStack {
             Text("Please select a date!")
             DatePicker("Date", selection: $date)
+            Text("Git push test!")
         }.padding()
     }
 }
