@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var text: String = "Testing the text field"
+    @State private var date = Date()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Please select a date!")
+            DatePicker("Date", selection: $date)
+        }.padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 13")
     }
 }
